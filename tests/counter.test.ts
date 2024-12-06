@@ -129,7 +129,7 @@ describe("counter tests", () => {
       expect(count).toHaveTextContent("0");
     });
 
-    it("should reset the count to zero when clicking on the redset button", async () => {
+    it("should reset the count to zero when clicking on the reset button", async () => {
       // Arrange
       new CounterBuilder().build();
       const count = getCount();
